@@ -4,7 +4,7 @@
 - And I add a `extra button` to reload the addon you wish.
 
 ## Install Addon：
--   Download the latest add-on build from [here](https://github.com/hextantstudios/hextant_reload_addon/releases/latest/download/hextant_reload_addon.zip) or clone it using _git_ to your custom Blender `...\scripts\addons\` folder.
+-   Download the latest add-on build from [here](https://github.com/hjkggy007/hjkggy_reload_blender3_x_addon/releases/download/v1.0/hjkggy_reload_addonV1.0.zip) or clone it using _git_ to your custom Blender `...\scripts\addons\` folder.
 -   From Blender's Main Menu:
     -   _Edit / Preferences_
     -   Click the _Install_ button and select the downloaded zip file.
