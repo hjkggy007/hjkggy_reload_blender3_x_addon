@@ -1,7 +1,7 @@
 ## Above all:
 ---
 - This Addon is changed by me from [hextant_reload_addon](https://github.com/hextantstudios/hextant_reload_addon) which doesn't work in Blender 3.x.
-- And I add a extra button to reload the addon you wish.
+- And I add a `extra button` to reload the addon you wish.
 
 ## Install Addon：
 ---
