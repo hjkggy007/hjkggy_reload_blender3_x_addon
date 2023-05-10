@@ -14,7 +14,7 @@
 
 ## Use Addon：
 
-It works when your addon is totally runable, and don't need to type more in your  own addon.(So you don't need to know  [hextant_reload_addon#use](https://github.com/hextantstudios/hextant_reload_addon#use))
+It works when your addon is totally runable.(So you DON'T NEED to know  [hextant_reload_addon#use](https://github.com/hextantstudios/hextant_reload_addon#use))
 
 You can use a method of this list below to reload the addon you wish:
 - press  `Ctrl + Alt + R`  
