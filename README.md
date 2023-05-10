@@ -16,7 +16,7 @@
 
 It works when your addon is totally runable.(So you DON'T NEED to know  [hextant_reload_addon#use](https://github.com/hextantstudios/hextant_reload_addon#use))
 
-You can use a method of this list below to reload the addon you wish:
+You can use a method of this list below to reload your own addon:
 - press  `Ctrl + Alt + R`  
 - press the  `Button`  on top of 3d viewport( make sure you have entered your addon name in this addon)
 
