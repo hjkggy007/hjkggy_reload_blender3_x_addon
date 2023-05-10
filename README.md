@@ -53,7 +53,7 @@ You also can reload all the scripts by:
 - 按  `Ctrl + Alt + R`  
 - 点击  `按钮`  在3D视图的顶部( 确保你已经填写了插件名称)
 
-你也可以重载Blende全部脚本，通过:
+你也可以重载Blender全部脚本，通过:
 - 按  `Ctrl + Alt+ Shift + R`  
 
 
