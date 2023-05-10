@@ -1,10 +1,8 @@
 ## Above all:
----
 - This Addon is changed by me from [hextant_reload_addon](https://github.com/hextantstudios/hextant_reload_addon) which doesn't work in Blender 3.x.
 - And I add a `extra button` to reload the addon you wish.
 
 ## Install Addon：
----
 -   Download the latest add-on build from [here](https://github.com/hextantstudios/hextant_reload_addon/releases/latest/download/hextant_reload_addon.zip) or clone it using _git_ to your custom Blender `...\scripts\addons\` folder.
 -   From Blender's Main Menu:
     -   _Edit / Preferences_
@@ -14,7 +12,6 @@
         -   Note that this does not have to be done to simply use the reload _all_ scripts hotkey.
 
 ## Use Addon：
----
 
 It works when your addon is totally runable, and don't need to type more in your  own addon.(So you don't need to know  [hextant_reload_addon#use](https://github.com/hextantstudios/hextant_reload_addon#use))
 
