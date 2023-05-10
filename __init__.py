@@ -108,6 +108,8 @@ def draw_reload_op(self,context):
     package_name = addon_prefs.package_name
     if package_name!='':
         layout.operator("script.reload_addon",text=package_name,icon="FILE_REFRESH")
+    else:
+        layout.operator("script.reload_addon",text="enter_name_first",icon="FILE_REFRESH")
 #
 # Registration
 #
