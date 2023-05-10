@@ -10,7 +10,7 @@ bl_info = {
     "location": "script.reload_addon (Ctrl+Alt+R)",
     "description": "Reloads only the configured add-on (Ctrl+Alt+R) or " \
         "all scripts (Ctrl+Alt+Shift+R).",
-    "doc_url": "https://github.com/hextantstudios/hextant_reload_addon",
+    "doc_url": "https://github.com/hjkggy007/hjkggy_reload_blender3_x_addon",
     "category": "Development",
 }
 
@@ -106,7 +106,9 @@ def draw_reload_op(self,context):
     layout=self.layout
     addon_prefs = context.preferences.addons[__package__].preferences
     package_name = addon_prefs.package_name
+    text=''
     if package_name!='':
+        
         layout.operator("script.reload_addon",text=package_name,icon="FILE_REFRESH")
     else:
         layout.operator("script.reload_addon",text="enter_name_first",icon="FILE_REFRESH")
@@ -134,7 +136,7 @@ def register():
 
 def unregister():
     _unregister()
-
+    bpy.types.VIEW3D_MT_editor_menus.remove(draw_reload_op)
     # Remove shortcuts.
     for km, kmi in _keymaps: km.keymap_items.remove(kmi)
     _keymaps.clear()
