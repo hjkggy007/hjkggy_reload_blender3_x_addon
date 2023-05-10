@@ -25,4 +25,4 @@ You also can reload all the scripts by:
 
 
 ## Note:
-- If you add `new class` or `new Property` in your `register()` and `register()` function, it's likely to get wrong, in this case you can reopen Blender to make it work.
+- If you add `new class` or `new Property` in your `register()` and `unregister()` function, it's likely to get wrong, in this case you can reopen Blender to make it work.
